@@ -14,11 +14,11 @@ void main() {
         ),
         body: Center(
           child: Image(
-          image: NetworkImage(
-              'https://admin.reformedwiki.com/wp-content/uploads/2020/03/graven-images-scaled.jpg'),
-        ), 
+            image: NetworkImage(
+                'https://admin.reformedwiki.com/wp-content/uploads/2020/03/graven-images-scaled.jpg'),
+          ),
+        ),
       ),
     ),
-  ),
   );
 }
