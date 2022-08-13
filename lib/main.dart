@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(
+    MaterialApp(
     home: Scaffold(
       backgroundColor: Colors.blueGrey,
       appBar: AppBar(
@@ -16,5 +17,6 @@ void main() {
             'https://admin.reformedwiki.com/wp-content/uploads/2020/03/graven-images-scaled.jpg'),
       ),
     ),
-  ));
+  )
+  );
 }
