@@ -10,6 +10,7 @@ void main() {
           centerTitle: true,
           title: Text('IAm Rich'),
           backgroundColor: Colors.blueGrey[900],
+        
         ),
       ),
     ),
