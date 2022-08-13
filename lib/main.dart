@@ -12,11 +12,13 @@ void main() {
           title: Text('IAm Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Image(
+        body: Center(
+          child: Image(
           image: NetworkImage(
               'https://admin.reformedwiki.com/wp-content/uploads/2020/03/graven-images-scaled.jpg'),
-        ),
+        ), 
       ),
     ),
+  ),
   );
 }
