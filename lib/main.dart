@@ -7,11 +7,9 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          centerTitle: true,
-          title: Text('IAm Rich'),
-          backgroundColor: Colors.blueGrey[900],
-        
-        ),
+            centerTitle: true,
+            title: Text('IAm Rich'),
+            backgroundColor: Colors.blueGrey[900]),
       ),
     ),
   );
