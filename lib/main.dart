@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 void main() {
   runApp(
@@ -7,10 +8,15 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-            centerTitle: true,
-            title: Text('IAm Rich'),
-            backgroundColor: Colors.blueGrey[900]),
+          centerTitle: true,
+          title: Text('IAm Rich'),
+          backgroundColor: Colors.blueGrey[900],
+        
+
       ),
+      body: Image(
+        image:NetworkImage('https://admin.reformedwiki.com/wp-content/uploads/2020/03/graven-images-scaled.jpg'),
+        ),
     ),
   );
 }
