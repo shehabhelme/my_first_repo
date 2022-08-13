@@ -14,7 +14,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: AssetImage('image/cat.jfif'),
+            image: AssetImage('image/R.jfif'),
           ),
         ),
       ),
